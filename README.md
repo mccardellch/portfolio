@@ -8,3 +8,8 @@ I have a strong interest in web development and object-oriented programming lang
 - Web: https://github.com/mccardellch/web/
 - Backend: https://github.com/mccardellch/backend/
 - Old Portfolio: https://people.rit.edu/hhm7826/230/portfolio/
+
+
+#### Feel free to reach out and connect:
+- LinkedIn :  https://www.linkedin.com/in/harry-mccardell/
+- Email : mccardellhar@gmail.com
