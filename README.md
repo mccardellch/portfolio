@@ -1,6 +1,6 @@
 # Welcome!
 
-##### https://mccardellch.github.io/portfolio/
+<!-- ##### https://mccardellch.github.io/portfolio/ -->
 
 Hey I'm Harry McCardell, a 4th year, Game Design and Development student at Rochester Insitute of Technology. 
  
