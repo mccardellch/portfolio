@@ -2,9 +2,9 @@
 
 ##### https://mccardellch.github.io/portfolio/
 
-Hey I'm Harry McCardell, a 3rd year, Game Design and Development student at Rochester Insitute of Technology. 
+Hey I'm Harry McCardell, a 4th year, Game Design and Development student at Rochester Insitute of Technology. 
  
-I have a strong interest in web development and object-oriented programming languages. My specialty languages are C# and Javascript but I enjoy using C++ as well. Implementing web APIs, data structures, and algorithms are also a big part of what I do. 
+I have a strong interest in web development and software engineering/game development. My specialty languages are C# and Javascript but I enjoy using C++ as well. Implementing web APIs, data structures, and algorithms are also a big part of what I do. 
 
 #### You can check out my other repositories of my work here:
 - Web: https://github.com/mccardellch/web/
