@@ -6,7 +6,8 @@ Hey I'm Harry McCardell!
 Game Design and Development (BS) student at Rochester Insitute of Technology. 
 Minor in Advertising and Public Relations
 
-Strong interest in web development and game development.
+Strong interest in web development and game development. 
+Searching for entry level or internship jobs within those fields.
 - Languages: C#, Javascript, C++, HTML, CSS
 - Programs: Visual Studio, Unity
 - Other: Adobe Creative Cloud, Google Suite
@@ -27,4 +28,4 @@ Strong interest in web development and game development.
 <br/>
 <br/>
 
-updated: 11/2020
+updated: 1/2022
