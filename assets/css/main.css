@@ -2562,13 +2562,6 @@ input, select, textarea {
 		}
 
 /* Tiles */
-.tiles img {
-  
-  height: 326px;
-  width: 353px;
-  object-fit: cover;
-}
-
 	.tiles {
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -2772,6 +2765,14 @@ input, select, textarea {
 			max-height: 15em;
 			opacity: 1;
 		}
+
+.tiles img {
+  
+  height: 326px;
+  width: 353px;
+  object-fit: cover;
+}
+
 
 		@media screen and (max-width: 1280px) {
 
