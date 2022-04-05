@@ -1,0 +1,7 @@
+-- INDEX --
+ * single page document
+ * show projects
+    * get image of projects for cover
+ *
+-- GENERIC -- 
+-- ELEMENTS --  
