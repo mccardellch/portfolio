@@ -2,15 +2,14 @@
 
 <!-- ##### https://mccardellch.github.io/portfolio/ -->
 
-Hey I'm Harry McCardell! 
-Game Design and Development (BS) student at Rochester Insitute of Technology. 
-Minor in Advertising and Public Relations
+Hey, I'm Harry McCardell! 
+I'm a RIT graduate with a degree in Game Design and Development and minor in Advertising and Public Relations.
 
-Strong interest in web development and game development. 
+Strong interest in web and game development. 
 Searching for entry level or internship jobs within those fields.
 - Languages: C#, Javascript, C++, HTML, CSS
 - Programs: Visual Studio, Unity
-- Other: Adobe Creative Cloud, Google Suite
+- Other Skills: Adobe Creative Cloud, Google Suite
 
 #### You can check out my other repositories of my work here:
 - Web: https://github.com/mccardellch/web/
