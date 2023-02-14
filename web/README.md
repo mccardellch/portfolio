@@ -1,12 +1,13 @@
 # web
-Assignments, projects, coursework from IGME 330 and 230 web courses
- - programs created with Javascript, ECMAScript 6, APIs, HTML5, CSS3, PHP
+<!-- Assignments, projects, coursework from IGME 330 and 230 web courses
+ - programs created with Javascript, ECMAScript 6, APIs, HTML5, CSS3, PHP -->
  
-### Skate Spots - *current project* - IGME 330 project 3
+### Skate Spots Web App - IGME 330 project 3
 ![Skate Spots screenshot](screenshots/skatespots.png)
    - https://people.rit.edu/hhm7826/330/project3/
-   - Dual API App
-   - Firebase Realtime Database
+   - 
+   <!-- - Dual API App -->
+   <!-- - Firebase Realtime Database -->
    - Mapbox.gl
 
 ### Interactive Fireworker Shooter App - IGME 330 - project 1
@@ -20,7 +21,6 @@ Assignments, projects, coursework from IGME 330 and 230 web courses
    - Web Audio API
    - Canvas API
    
-
 #### You can check out my other repositories of my work here:
 - Backend: https://github.com/mccardellch/backend/
 - Old Portfolio: https://people.rit.edu/hhm7826/230/portfolio/
