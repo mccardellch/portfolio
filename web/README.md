@@ -1,4 +1,4 @@
-# web
+# Web Projects
 <!-- Assignments, projects, coursework from IGME 330 and 230 web courses
  - programs created with Javascript, ECMAScript 6, APIs, HTML5, CSS3, PHP -->
  
