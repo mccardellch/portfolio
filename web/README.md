@@ -5,7 +5,6 @@
 ### Skate Spots Web App - IGME 330 project 3
 ![Skate Spots screenshot](screenshots/skatespots.png)
    - https://people.rit.edu/hhm7826/330/project3/
-   - 
    <!-- - Dual API App -->
    <!-- - Firebase Realtime Database -->
    - Mapbox.gl
