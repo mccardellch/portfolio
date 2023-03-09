@@ -1,4 +1,4 @@
-import Firework from "./Firework.js";
+import Firework from "./firework.js";
 
 export default class FireworkController {
   fireworks = [];
