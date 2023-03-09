@@ -31,7 +31,13 @@ function mainState(){
 	ctx.fillRect(0,0,canvas.width,canvas.height);
     
     document.querySelector('#shoot').onclick = function(e){
+      console.log('clicked');
+//      window.dispatchEvent(new KeyboardEvent('keydown', {
+//        code: "Enter",
+//      }));
       player.shoot();
+//      player.shootPressed = false;
+      
     };
   
     document.querySelector('#boatColorChooser').onchange = function(e){
