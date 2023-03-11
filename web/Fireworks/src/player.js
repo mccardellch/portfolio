@@ -11,7 +11,7 @@ export default class Player {
     document.addEventListener("keyup", this.keyup);
   }
   
-  draw(ctx){
+  draw(ctx, color){
     this.move();
 //    console.log(`player: (${this.x}, ${this.y})`);
     ctx.fillStyle = 'blue';
@@ -19,17 +19,19 @@ export default class Player {
 //    ctx.fillStyle = this.color;   
 //    ctx.fillRect(this.x, this.y, this.width, this.height);
     
-    ctx.fillStyle = 'brown';
+    ctx.fillStyle = color;
     ctx.fillRect(this.x,this.y,52,20);
 
-    ctx.fillStyle = 'brown';
+    ctx.fillStyle = color;
     ctx.fillRect(this.x + 10,this.y - 48,6,50); 
 
-    ctx.fillStyle = 'brown';
+    ctx.fillStyle = color;
     ctx.fillRect(this.x + 37,this.y-48,6,50);
 
     ctx.beginPath();
-    ctx.fillStyle = "green";
+    ctx.fillStyle = "#F5F5DC";
+    ctx.lineWidth = 1;
+    ctx.strokeStyle = "black";
     ctx.moveTo(this.x + 14,this.y-52);
     ctx.lineTo(this.x - 10,this.y-20);
     ctx.lineTo(this.x + 26,this.y-20);
@@ -37,15 +39,18 @@ export default class Player {
     ctx.fill();  
 
     ctx.beginPath();
-    ctx.fillStyle = "lightgreen";
+    ctx.fillStyle = "#FAEBD7";
+    ctx.lineWidth = 1;
+    ctx.strokeStyle = "black";
     ctx.moveTo(this.x + 38,this.y-80);
     ctx.lineTo(this.x,this.y-25);
     ctx.lineTo(this.x+60,this.y-25);
     ctx.closePath();
     ctx.fill(); 
+    ctx.stroke();
 
     ctx.beginPath();
-    ctx.fillStyle = "brown";
+    ctx.fillStyle = color;
     ctx.moveTo(this.x-20,this.y-5);
     ctx.lineTo(this.x,this.y-5);
     ctx.lineTo(this.x,this.y+20);
@@ -53,7 +58,7 @@ export default class Player {
     ctx.fill(); 
 
     ctx.beginPath();
-    ctx.fillStyle = "brown";
+    ctx.fillStyle = color;
     ctx.moveTo(this.x+72,this.y-5);
     ctx.lineTo(this.x+52,this.y-5);
     ctx.lineTo(this.x+52,this.y+20);

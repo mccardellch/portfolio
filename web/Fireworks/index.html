@@ -14,11 +14,11 @@
 </head>
     
 <body>
-<h1>Interactive Firework Shooter</h1>
+<h1 id='title'>Interactive Firework Shooter</h1>
 <canvas id='canvas'></canvas>
 <section id='controls'>
     <h5>Controls</h5>
-    <button id='shoot' type='button'>Shoot Firework!</button>
+    <button id='shoot' class='firework' type='button'>Shoot Firework!</button>
     
     <label class='firework'>Firework Size: 
         <input id='sizeSlider' type='range' min='2' max='10' value='2'>
@@ -34,10 +34,10 @@
     
     <label class='firework'>Boat Color: 
         <select id="boatColorChooser">
-            <option value="yellow" selected>Yellow</option>
+            <option value="yellow">Yellow</option>
 			<option value="red">Red</option>
         	<option value="green">Green</option>
-        	<option value="brown">Brown</option>
+        	<option value="brown" selected>Brown</option>
         </select>
     </label>
         

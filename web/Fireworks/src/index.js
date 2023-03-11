@@ -53,7 +53,7 @@ function mainState(){
     };
   
   fireworkController.draw(ctx, sliderValue, fireworkShape);
-  player.draw(ctx);
+  player.draw(ctx, boatColor);
 }
    
 setInterval(mainState, 1000/60);
