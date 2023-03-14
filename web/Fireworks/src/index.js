@@ -14,30 +14,28 @@ let fireworkShape = 'circle';
 
 //using enums to run through the loops
 const mode = {
-    SHOOT: 'shoot',
-    CLEAR: 'clear'
+    MAIN: 'main',
+    GAME: 'game',
+    PAUSE: 'pause',
+    CREDITS: 'credits',
 };
    
-let state = mode.CLEAR; //start on clear
+let state = mode.MAIN; //start on clear
 
 const fireworkController = new FireworkController(canvas);
 const player = new Player(100, 500, 'red', fireworkController);
 
 //window.onload = mainState;
 
-
 function mainState(){  
   ctx.fillStyle = 'black';
 	ctx.fillRect(0,0,canvas.width,canvas.height);
     
-    document.querySelector('#shoot').onclick = function(e){
-      console.log('clicked');
-//      window.dispatchEvent(new KeyboardEvent('keydown', {
-//        code: "Enter",
-//      }));
+  ctx.fillStyle = 'red';
+  ctx.fillRect(200, 200, 100,100);
+
+  document.querySelector('#shoot').onclick = function(e){
       player.shoot();
-//      player.shootPressed = false;
-      
     };
   
     document.querySelector('#boatColorChooser').onchange = function(e){

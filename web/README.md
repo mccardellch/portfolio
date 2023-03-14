@@ -20,9 +20,9 @@
    - Web Audio API
    - Canvas API
    
-#### You can check out my other repositories of my work here:
+<!-- #### You can check out my other repositories of my work here:
 - Backend: https://github.com/mccardellch/backend/
-- Old Portfolio: https://people.rit.edu/hhm7826/230/portfolio/
+- Old Portfolio: https://people.rit.edu/hhm7826/230/portfolio/ -->
 
 #### Feel free to reach out and connect:
 - LinkedIn :  https://www.linkedin.com/in/harry-mccardell/
