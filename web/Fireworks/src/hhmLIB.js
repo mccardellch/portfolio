@@ -60,16 +60,24 @@ function drawOval(ctx, n, c, sliderValue, xPos){
   drawDot(ctx,x,y,sliderValue, hhmLIB.getRandomColor());
 }
 
-function stars(){
-    for (let i = 0; i < 200; i++){
+function stars(ctx, canvasWidth, playerY){
+    for (let i = 0; i < 6; i++){
         ctx.save();
-        ctx.globalAlpha = 0.4;
-        ctx.fillStyle = hhmLIB.getRandomColor(3,3,0);
-        ctx.fillRect(hhmLIB.getRandomInt(0,canvasWidth), hhmLIB.getRandomInt(0, player.y), 3,3);
+        ctx.globalAlpha = 1;
+        ctx.fillStyle = hhmLIB.getRandomColor(1,1,0);
+        ctx.fillRect(hhmLIB.getRandomInt(0,800), hhmLIB.getRandomInt(0, 500), 3,3);
         ctx.restore();
     }
 }
-    
+   
+function getMousePos(ctx, e){
+  var rect = canvas.getBoundingClientRect();
+  return {
+    x: e.clientX - rect.left,
+    y: e.clientY - rect.top
+  }
+}
+  
 //function resetValues(){
 //    n = 0;
 //    y_Firework = 550;
@@ -84,6 +92,7 @@ window['hhmLIB'] = {
     drawCircle,
     drawSpiral,
     drawOval,
-    stars
+    stars,
+    getMousePos,
     }
 })();

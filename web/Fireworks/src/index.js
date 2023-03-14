@@ -30,9 +30,14 @@ const player = new Player(100, 500, 'red', fireworkController);
 function mainState(){  
   ctx.fillStyle = 'black';
 	ctx.fillRect(0,0,canvas.width,canvas.height);
-    
-  ctx.fillStyle = 'red';
-  ctx.fillRect(200, 200, 100,100);
+  
+//  hhmLIB.stars(ctx, canvas);
+//  
+//  ctx.fillStyle = 'red';
+//  ctx.fillRect(cawnvasWidth/2 + 50, 200, 100,50);
+//  ctx.fillStyle = 'red';
+//  ctx.fillRect(canvasWidth/2 - 150, 200, 100,50);
+//  ctx.fillRect(canvasWidth/2, 0, 1,canvasHeight);
 
   document.querySelector('#shoot').onclick = function(e){
       player.shoot();
