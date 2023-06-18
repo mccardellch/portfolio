@@ -151,7 +151,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #f2849e !important;
+			color: #7ecaf6 !important;
 		}
 
 	strong, b {
@@ -2771,6 +2771,23 @@ input, select, textarea {
   height: 326px;
   width: 353px;
   object-fit: cover;
+}
+
+#navbar {
+	margin-top: 25px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#navbar ul{
+	list-style: none;
+	display: inline;
+	
+}
+
+#navbar li {
+	float: right;
+	padding-right: 25px;
 }
 
 
