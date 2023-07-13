@@ -16,6 +16,7 @@ h1, h3{
   padding: 0;
   margin: auto;
   margin-top: 20px;
+  margin-bottom: 15px;
   display: block;
   width: auto;
 }
@@ -31,11 +32,14 @@ h1, h3{
     margin-right: auto; */
     /* display: block; */
     width: 100%;
+    display: grid;
 }
 
 .firework{
     font-size: 1.2em;
     margin-left: 50px;
+    margin-top: 10px;
+    display: inline-block;
 }
 
 #shoot{
@@ -56,17 +60,15 @@ select{
 }
 
 #info{
+    margin-top: 50px;
     font-size: 20px;
     width: 800px;
-    display: none;
-}
-#info h3{
-    margin: auto;
+    margin: 20px;
+    margin-top: 50px;
 }
 
 #phyllotaxis p{
-    margin: 0 0 0 20px;
-    padding: 0;
+    margin: 10px;
 }
 
 a:hover, a:hover:visited{
