@@ -14,7 +14,7 @@ export default class Player {
   draw(ctx, color){
     this.move();
 //    console.log(`player: (${this.x}, ${this.y})`);
-    ctx.fillStyle = 'blue';
+    ctx.fillStyle = 'rgb(11, 175, 230)';
     ctx.fillRect(0,this.y+9,canvas.width, canvas.height); 
 //    ctx.fillStyle = this.color;   
 //    ctx.fillRect(this.x, this.y, this.width, this.height);
