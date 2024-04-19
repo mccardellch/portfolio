@@ -7,6 +7,10 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+#red {
+  background-color: red;
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -2728,6 +2732,10 @@ input, select, textarea {
 				background-color: #8499e7;
 			}
 
+      .tiles article.style0 > .image:before {
+				background-color: none;
+			}
+
 			body:not(.is-touch) .tiles article:hover > .image {
 				-moz-transform: scale(1.1);
 				-webkit-transform: scale(1.1);
@@ -2777,17 +2785,18 @@ input, select, textarea {
 	margin-top: 25px;
 	padding-top: 15px;
 	padding-bottom: 15px;
+  padding-right: 50px;
 }
 
 #navbar ul{
 	list-style: none;
 	display: inline;
-	
 }
 
 #navbar li {
 	float: right;
-	padding-right: 25px;
+	padding-right: 50px;
+  font-size: 1.5em;
 }
 
 
