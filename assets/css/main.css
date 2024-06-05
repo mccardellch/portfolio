@@ -21,7 +21,7 @@ form, label, legend, table, caption, tbody,
 tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
-section, summary, time, mark, audio, video {
+section, summary, time, mark, audio {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -2731,8 +2731,14 @@ input, select, textarea {
 			.tiles article.style6 > .image:before {
 				background-color: #8499e7;
 			}
+			.tiles article.style7 > .image:before {
+				background-color: #d1ded4;
+			}
+			.tiles article.style8 > .image:before {
+				background-color: #e8eaed;
+			}
 
-      .tiles article.style0 > .image:before {
+      		.tiles article.style0 > .image:before {
 				background-color: none;
 			}
 
@@ -2745,7 +2751,7 @@ input, select, textarea {
 
 				body:not(.is-touch) .tiles article:hover > .image:before {
 					background-color: #333333;
-					opacity: 0.35;
+					opacity: 0.55;
 				}
 
 				body:not(.is-touch) .tiles article:hover > .image:after {
